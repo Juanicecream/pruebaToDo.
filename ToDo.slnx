@@ -1,5 +1,14 @@
 <Solution>
-  <Project Path="ToDo.Apps.ConsoleApp/ToDo.Apps.ConsoleApp.csproj" />
-  <Project Path="ToDo.Apps.WebApiApp/ToDo.Apps.WebApiApp.csproj" />
-  <Project Path="ToDo.Entidades/ToDo.Entidades.csproj" />
+  <Folder Name="/Apps/">
+    <Project Path="ToDo.Apps.ConsoleApp/ToDo.Apps.ConsoleApp.csproj" />
+    <Project Path="ToDo.Apps.WebApiApp/ToDo.Apps.WebApiApp.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="ToDo.Datos/ToDo.Datos.csproj" />
+    <Project Path="ToDo.Entidades/ToDo.Entidades.csproj" />
+    <Project Path="ToDo.Negocio/ToDo.Negocio.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="ToDo.Entidades.Tests/ToDo.Entidades.Tests.csproj" />
+  </Folder>
 </Solution>
